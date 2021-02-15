@@ -26,6 +26,7 @@ int main()
     case '%':
 	printf("%.1lf % %.1lf = %.1lf", first, second, first % second);
 	break;
+	//new operation added
         // operator doesn't match any case constant
     default:
         printf("Error! operator is not correct");
